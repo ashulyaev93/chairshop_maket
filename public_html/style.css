@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{height: 100%};
+
+body{
+    font-family: montserrat;
+}
+
+.container {
+    max-width: 1360px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.slider {
+    background-image: url(img/slider-img.jpg);
+    width: 1360px;
+    height: 800px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-up {
+    float: right;
+}
+
+.menu-up-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-up-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    padding: 10px 13px;
+}
+
+.menu-up-link:active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    top: 373px;
+    position: absolute;
+}
+
+.h1 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    line-height: 24px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    letter-spacing: 3.6px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+}
+
+.button:active {
+    background-color: black;
+    color: white;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.pagination {
+    position:relative;
+    align-content: center;
+    bottom: -651px;
+    text-align: center !important;
+    display: block;
+}
+
+.menu-products li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.seat-and-back{
+    background-image:url(img/back-two.jpg);
+        width: 270px;
+height: 270px;
+    padding: 0px;
+    
+}
+
+.FChair{
+    color: #212121;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 29.88px;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.products{
+        padding-right: 67%;
+    } 
+
+.container-two{
+    width: 1360px;
+}
+
+.arrow-block{/*right: 0px;
+margin-right: 97px;*/
+width: 48px;
+height: 48px;
+box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+border-radius: 24px;
+background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 63px;
+    margin-left: 111px;
+    
+}
+
+.products li{
+    display: inline;
+    clear: both;
+}  
+
+.activ{
+  border-bottom:3px solid black; 
+    padding-bottom: 4px;
+}
+
+.button2{
+    float:right;
+    margin-top: -50px;
+    float:right;
+
+}
+
+.circle-two img{
+    width: 12px;
+height: 20px;
+
+
+}
+
+.menu-products {
+border-bottom:1px solid gray;
+    margin-top: 120px;
+    margin-left: 107px;
+}
+
+.menu-products-link{
+    color: #212121;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700
+    
+}
+
+.menu-products-link-new{
+    color: #6c6c6c;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+    
+}
+
+.button2{
+    color: #212121;
+color: #6c6c6c;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+/* Text style for "explore al" */
+color: #212121;
+letter-spacing: 3.6px;
+}
+
+.text-featured{
+    color: #6c6c6c;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+line-height: 21.91px;
+    margin-left: 32px;
+    margin-top: 23px;
+    width: 206px;
+height: 33px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.chair-blok{
+    background-image: url(img/promo-img1.jpg);
+    width: 683px;
+    height: 683px;
+}
+
+.armchair-blok{
+    background-image: url(img/promo-img.jpg);
+    width: 683px;
+    height: 683px;
+}
+
+.h1-two{
+   color: #1e88e5;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 48px;
+text-transform: uppercase;
+/* Text style for "exclusive" */
+color: #1e88e5;
+letter-spacing: 1.8px; 
+}
+
+.h2-two{
+   color: #212121;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700; 
+}
+
+.slider-content-two{
+    
+}
+
+.menu-products-link-trending{
+    list-style-type: none;
+    color: #212121;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+}
+
+.trending-products-one{
+    margin: 0 !important;
+}
+
+.trending-products-one img{
+    width: 100%;
+}
+
+.info-one{
+    list-style-type: none;
+}
+
+.info-two{
+    list-style-type: none;
+}
+
+.h1-three{
+    color: #e53935;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 48px;
+text-transform: uppercase;
+/* Text style for "Hot deal" */
+color: #e53935;
+letter-spacing: 1.8px;
+    position: relative;
+    top: 283px;
+}
+
+h2-three{
+    clear: both;
+position: absolute;
+    margin-top: 293px;
+    
+}
+
+.slider-text-two{
+    color: #6c6c6c;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+    margin-top: 120px;
+}
+
+.slider-content-three{
+    margin-top: 399px;
+    width: 458px;
+height: 38px;
+color: #6c6c6c;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+}
+
+.slider-two{
+    background-image: url(img/slider.png);
+    height: 800px;
+    width: 1360px; 
+}
+
+.exclusive-products-two{
+    background-image: url(img/product-1-lg.jpg);
+    width: 100%;
+}
+
+.app{
+    background-image: url(img/back-img.jpg);
+    height: 800px;
+    width: 1360px;
+}
+
+.h1-five{
+    color: #6c6c6c;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 48px;
+text-transform: uppercase;
+/* Text style for "mobile app" */
+color: #6c6c6c;
+letter-spacing: 1.8px;
+}
+
+.h2-five{
+    color: #212121;
+font-family: "Montserrat - Thin";
+font-size: 62px;
+font-weight: 400;
+line-height: 72px;
+text-transform: uppercase;
+}
+
+.slider-content-five{
+    color: #6c6c6c;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 300;
+line-height: 24px;
+}
+
+.footer{
+    background-color: #f7f7f7;
+    width: 1360px;
+height: 384px;
+}
+
+.h2-six{
+    color: #6c6c6c;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+/* Text style for "C, ontact" */
+letter-spacing: 1.8px;
+}
+
+.p-six{
+    color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+}
+
+.info-one{
+    color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+/* Text style for "Sales term" */
+letter-spacing: 0.7px;
+}
+
+.info-two{
+    color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+/* Text style for "Sales term" */
+letter-spacing: 0.7px;
+}
+
+.copy{
+    color: #6c6c6c;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+/* Text style for "©,  Copyri" */
+letter-spacing: 0.6px;
+}
+
+.footer-link{
+    color: #6c6c6c;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+/* Text style for "T, erms &" */
+letter-spacing: 0.6px;
+}
+
+.two-blok{
+    margin-top: 50px;
+    margin-left:98px;
+margin-right: 98px;
+}
+
+.two-blok col-md-3{
+    padding-right: 30px;
+}
+
+.exclusive-products{
+    margin-top: 120px;
+}
+
+.trend{
+    width: 1360px;
+    margin-top: 119px;
+}
+
+.trending-products-one{
+    margin-top: 64px;
+    margin-right: 98px;
+}
+
+.trending-products-one .col-md-4{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.trending-products-one .col-md-4:not(:last-child){padding-right: 30px;
+}
+
+.menu-trending-products{
+    left:0px;
+    margin-bottom: 64px;
+    
+}
+
+.menu-products-link-trending{
+    margin-left: 98px;
+}
+
+.slider-two{
+    margin-top: 120px;
+}
+
+.exclusive-products-two{
+    margin-top: 120px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 1360px;
+}
+
+.red-black{
+    width: 570px;
+    height: 570px;   
+}
+
+.app{
+    margin-top: 120px;
+    height: 577px;
+}
+
+.low{
+    margin-left: 0;
+}
+
+.h1-two{
+    margin-top: 228px;
+    margin-left: 51px;
+}
+
+.h2-two{
+    margin-top: 18px;
+    margin-left: 51px;
+}
+
+.slider-content-two{
+    margin-top: 24px;
+    margin-left: 51px;
+    margin-right: 259px;
+}
